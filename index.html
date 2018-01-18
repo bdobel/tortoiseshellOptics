@@ -8,88 +8,71 @@
   </head>
   <body>
     <!-- heading -->
-    <div class="header">
-      <div class="banner">
-        <img src="./resources/img/logo-white.png" alt="reading glasses">
-        <span>Tortoiseshell Optics</span>
-        <div class="navigation">
+    <header>
+      <nav class="container">
+        <div class="company">
+          <img src="./resources/img/logo-white.png" alt="reading glasses">
+          <span>Tortoiseshell Optics</span>
+        </div>
+        <div class="menu">
           <ul>
             <li>Services</li>
             <li>Products</li>
             <li>Contact</li>
           </ul>
         </div>
-      </div>
-      <div class="title">
-        <h1>DON'T JUST LOOK, SEE.</h1>
-      </div>
-    </div>
-
-    <!-- main content -->
-    <div class="main">
-
-      <div class="container">
-
-        <div class="services">
-
-          <div class="content left">
-            <div class="content-image">
-              <img src="./resources/img/paper-icon.png" alt="sheet of paper">
-            </div>
-            <div class="content-title">
-              <h3>Comprehensive</h3>
-              <h3>Exams</h3>
-            </div>
-          </div>
-
-          <div class="content center">
-            <div class="content-image">
-              <img src="./resources/img/ruler-icon.png" alt="ruler">
-            </div>
-            <div class="content-title">
-              <h3>Custom</h3>
-              <h3>Fittings</h3>
-            </div>
-          </div>
-
-          <div class="content center">
-            <div class="content-image">
-              <img src="./resources/img/truck-icon.png" alt="ruler">
-            </div>
-            <div class="content-title">
-              <h3>Fast</h3>
-              <h3>Delivery</h3>
-            </div>
-          </div>
-
+          <ul class="menu-mobile">
+            <li>Menu</li>
+          </ul>
+      </nav>
+      <div class="flex container">
+        <div class="banner">
+          <h1>DON'T JUST LOOK, SEE.</h1>
         </div>
+      </div>
+    </header>
 
+    <!-- content: featured services -->
+    <section class="services">
+
+      <div class="service">
+        <img src="./resources/img/paper-icon.png" class="paper-icon" alt="sheet of paper">
+        <div>Comprehensive Exams</div>
       </div>
 
-      <!-- about -->
-      <div class="container">
-
-        <div class="about">
-
-          <div class="about-column">
-            <h2>PHILOSOPHY</h2>
-            <p>Over 75% of our brains are dedicated to one sense: vision. We believe everyone deserves to see the world, not matter what. That’s why we offer eye exams, custom fittings, and quick delivery at a low cost. It’s your vision that makes ours.</p>
-          </div>
-
-          <div class="about-column">
-            <h2>APPOINTMENTS</h2>
-            <p>Schedule an appointment by calling us at (312) 654-0987. We’re open Tuesday - Saturday, 9AM - 6PM.</p>
-          </div>
-
-        </div>
-
+      <div class="service">
+        <img src="./resources/img/ruler-icon.png" class="ruler-icon" alt="ruler">
+        <div>Custom Fittings</div>
       </div>
 
-    </div>
+      <div class="service">
+        <img src="./resources/img/truck-icon.png" class="truck-icon" alt="truck">
+        <div>Fast Delivery</div>
+      </div>
 
+    </section>
+
+    <!-- content: about -->
+    <section class="about container">
+
+      <div class="about-column">
+        <h2>PHILOSOPHY</h2>
+        <p>Over 75% of our brains are dedicated to one sense: vision. We believe everyone deserves to see the world, not matter what. That’s why we offer eye exams, custom fittings, and quick delivery at a low cost. It’s your vision that makes ours.</p>
+      </div>
+
+      <div class="about-column">
+        <h2>APPOINTMENTS</h2>
+        <p>Schedule an appointment by calling us at (312) 654-0987. We’re open Tuesday - Saturday, 9AM - 6PM.</p>
+      </div>
+
+    </section>
+
+    <!-- footer -->
     <footer class="container">
       <img src="./resources/img/logo-black.png" alt="reading glasses">
       <span>&copy TortoiseShell Optics</span>
     </footer>
+
   </body>
+
 </html>
